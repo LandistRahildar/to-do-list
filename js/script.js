@@ -1,13 +1,14 @@
 {
     const tasks = [
-        {
-            content: "pouczyć się frontendu",
-            done: false,
-        },
-        {
-            content: "zjeść śniadanie",
-            done: true,
-        },
+        //te poniższe klarmy możnaby usunąć i byłaby pusta tablica na start, bez przykładowych elementów
+        // {
+        //     content: "pouczyć się frontendu",
+        //     done: false,
+        // },
+        // {
+        //     content: "zjeść śniadanie",
+        //     done: true,
+        // },
     ];
 
     const addNewTask = (newTaskContent) => {
