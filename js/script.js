@@ -1,15 +1,5 @@
 {
-    const tasks = [
-        //te poniższe klarmy możnaby usunąć i byłaby pusta tablica na start, bez przykładowych elementów
-        // {
-        //     content: "pouczyć się frontendu",
-        //     done: false,
-        // },
-        // {
-        //     content: "zjeść śniadanie",
-        //     done: true,
-        // },
-    ];
+    const tasks = [];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -55,9 +45,9 @@
              <li 
              ${task.done ? "style=\"text-decoration: line-through\"" : ""}
              >
-             <button class="js-done">Zrobione?</button>
-             <button class="js-remove">Usuń</button>
+             <button class="js-done"><img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-large/2705.png"></button>
              ${task.content}
+             <button class="js-remove"><img src="https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-large/1f7e5.png"></button>
              </li>
              `;
         }
