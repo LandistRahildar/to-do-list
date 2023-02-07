@@ -11,7 +11,7 @@
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
     align-items: center;
-    border-bottom: 1px solid rgba(207, 203, 203, 0.233);
+    border-bottom: 1px solid #ddd;
 }
 
 .tasks__content--done {
@@ -29,11 +29,6 @@
 
 .tasks__button--toggleDone {
     background-color: hsl(120, 100%, 25%);
-    /* border: 0; */
-    /* color: white;
-    width: 35px;
-    height: 35px;
-    margin: 5px; */
 }
 
 .tasks__button--toggleDone:hover {
@@ -46,11 +41,6 @@
 
 .tasks__button--remove {
     background-color: hsl(0, 100%, 50%);
-    /* border: 0;
-    color: white;
-    width: 35px;
-    height: 35px;
-    margin: 5px; */
 }
 
 .tasks__button--remove:hover {
