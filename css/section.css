@@ -1,3 +1,7 @@
+.section {
+    margin: 10px 0;
+}
+
 .section__header {
     background-color: white;
     margin: 2px 0;
