@@ -11,26 +11,52 @@
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
     align-items: center;
+    border-bottom: 1px solid rgba(207, 203, 203, 0.233);
 }
 
 .tasks__content--done {
     text-decoration: line-through;
 }
 
-.tasks__button--green {
-    background-color: green;
-    border: 0;
+.tasks__button {
+    border: none;
     color: white;
     width: 35px;
     height: 35px;
     margin: 5px;
+    border: none;
 }
 
-.tasks__button--red {
-    background-color: red;
-    border: 0;
+.tasks__button--toggleDone {
+    background-color: hsl(120, 100%, 25%);
+    /* border: 0; */
+    /* color: white;
+    width: 35px;
+    height: 35px;
+    margin: 5px; */
+}
+
+.tasks__button--toggleDone:hover {
+    background-color: hsl(120, 100%, 30%);
+}
+
+.tasks__button--toggleDone:active {
+    background-color: hsl(120, 100%, 35%);
+}
+
+.tasks__button--remove {
+    background-color: hsl(0, 100%, 50%);
+    /* border: 0;
     color: white;
     width: 35px;
     height: 35px;
-    margin: 5px;
+    margin: 5px; */
+}
+
+.tasks__button--remove:hover {
+    background-color: hsl(0, 100%, 60%);
+}
+
+.tasks__button--remove:active {
+    background-color: hsl(0, 100%, 70%);
 }
