@@ -16,7 +16,7 @@
 
 .form__input {
     padding: 8px;
-    flex-grow: 5;
+    /* flex-grow: 5; */
 }
 
 .form__button {
@@ -24,11 +24,19 @@
     background-color: hsl(180, 100%, 25%);
     color: white;
     border: 0;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    transition: 0.5s;
 }
 
 .form__button:hover {
     background-color: hsl(180, 100%, 30%);
+    transform: scale(1.1);
+}
+
+@media(max-width: 767px) {
+    .form__button:hover {
+        transform: scale(1.02);
+    }
 }
 
 .form__button:active {
