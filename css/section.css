@@ -7,6 +7,7 @@
     margin: 2px 0;
     padding: 20px;
     width: 100%;
+    display: flex;
 }
 
 .section__paragraph {
