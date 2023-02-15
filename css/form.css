@@ -16,7 +16,6 @@
 
 .form__input {
     padding: 8px;
-    /* flex-grow: 5; */
 }
 
 .form__button {
@@ -24,7 +23,6 @@
     background-color: hsl(180, 100%, 25%);
     color: white;
     border: 0;
-    /* flex-grow: 1; */
     transition: 0.5s;
     cursor: pointer;
 }

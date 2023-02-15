@@ -9,14 +9,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
-    /* display: flex;
-    flex-direction: row; */
-    /* justify-content: flex-end; */
 }
-
-/* .section__title {
-    justify-content: flex-start;
-} */
 
 @media (max-width: 767px) {
     .section__header {
