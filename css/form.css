@@ -2,7 +2,6 @@
     background-color: white;
     padding: 25px;
     margin: 0 0 7px 0;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
